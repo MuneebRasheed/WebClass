@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="index.js">
+        
+    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" id="navbarItem">
+        <div>
+          <a class="navbar-brand" href="#" id="icon">
+            <img
+              src="https://honda.com.pk/images/2020/12/GBS_color-1.png"
+              alt=""
+              width="130"
+              height="70"
+              class="d-inline-block align-text-top"
+            />
+       
+          </a>
+        </div>
+
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-ul">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Modal Line</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Coporate</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Discover
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.honda.com.pk/images/banners/brv-banner-new.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.honda.com.pk/images/hrv/hrv-banner-2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.honda.com.pk/images/banners/honda-city-banner.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container" id="carssection">
+      <div class="text-center">
+        <h1 class="headinghonda">
+          Find your <span class="redtext">Honda</span> Car
+        </h1>
+      </div>
+
+      <div class="tabshonda mt-5">
+        <ul
+          class="nav nav-tabs nav-justified hondatabs"
+          id="myTab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontNormal active"
+              id="home-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab1"
+              type="button"
+              role="tab"
+              aria-controls="tab1"
+              aria-selected="true"
+            >
+              City
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontCarTab"
+              id="profile-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab1"
+              type="button"
+              role="tab"
+              aria-controls="tab2"
+              aria-selected="false"
+            >
+              BR-V
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontNormal"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab3"
+              type="button"
+              role="tab"
+              aria-controls="tab3"
+              aria-selected="false"
+            >
+              Civic
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontCarTab"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab6"
+              type="button"
+              role="tab"
+              aria-controls="tab6"
+              aria-selected="false"
+            >
+              HR-V
+            </button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontCarTab"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab4"
+              type="button"
+              role="tab"
+              aria-controls="tab4"
+              aria-selected="false"
+            >
+              CR-V
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link tabnavswitch customFontNormal"
+              id="contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#tab5"
+              type="button"
+              role="tab"
+              aria-controls="tab5"
+              aria-selected="false"
+            >
+              Accord
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade active show"
+          id="tab1"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          <div class="subtabshonda mt-5">
+            <div class="tab-content" id="myTabContent3">
+              <div
+                class="tab-pane fade active show"
+                id="city1"
+                role="tabpanel"
+                aria-labelledby="city1-tab"
+              >
+                <div class="text-center">
+                  <div class="img-car mt-5">
+                    <img
+                      class="city"
+                      src="https://www.honda.com.pk/images/landingimages/images/city/city1.2.png"
+                      alt="Honda City 1.2LS MT"
+                      id="imgSize"
+                    />
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 mt-2">
+                      <div class="cardetails mt-2">
+                        <div class="cartitle"><h2>Honda City 1.2LS MT</h2></div>
+                        <div class="startingclause mt-0 price">
+                          Starting From PKR 4,779,000
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 mt-2">
+                      <div class="cardetails mt-2">
+                        <div class="cartitle">
+                          <h2>Honda City 1.2LS CVT</h2>
+                        </div>
+                        <div class="startingclause mt-0 price" >
+                          Starting From PKR 4,929,000
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cardetails mt-2">
+                    <div class="detailedpricenote mt-1 gray">
+                      *For detailed price kindly use price calculator
+                    </div>
+                    <div class="buttonexplore">
+                      <a  class="btn btn-custom-honda mt-3" id="exploreMore"
+                        >Explore More &gt;</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+
+  
+    <div class="Top">
+      <div class="buttonTop">
+        <a  class="btn btn-custom-honda mt-3" id="scrolltoTop"
+          >Scroll To Top </a
+        >
+      </div>
+    </div>
+    <div class="line"></div>
+  </div>
+
+
+  </body>
+</html>

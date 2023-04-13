@@ -1,0 +1,98 @@
+#icon {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+    background-color: white;
+}
+#icon p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#navbarItem {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+#nav-ul {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.headinghonda {
+    color: #222;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+#imgSize{
+    width: 500px;
+}
+#exploreMore{
+
+    background-color: red;
+    color: aliceblue;
+    width: 180px;
+    border-radius: 20px;
+
+}
+h2{
+    color: red;
+}
+.price{
+    color: #222;
+    font-weight: 700;
+}
+
+.gray{
+    color: gray;
+    font-weight: 700;
+}
+
+#exploreMore:hover{
+
+    background-color: aliceblue;
+    color:  red;
+    width: 180px;
+    border-radius: 20px;
+    border-color: red;
+
+}
+#scrolltoTop{
+    color: white;
+margin-bottom:10px ;
+margin-left: 30px;
+}
+.buttonTop{
+
+    background-color: red;
+    color: aliceblue;
+    width: 180px;
+    border-radius: 20px;
+ 
+}
+
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+.buttonTop:hover{
+
+    background-color: aliceblue;
+    color:  red;
+    border-radius: 20px;
+    border-color: red;
+
+}
+.line{
+    background-color: red;
+    height: 5px;
+}
